@@ -1,0 +1,86 @@
+:root {
+  --color: #373737;
+}
+
+body {
+  display: inline-block;
+  background-color: #ffffff;
+  width: 1000px;
+  margin: 5% 25%;
+}
+
+.left-column {
+  float: left;
+  width: 35%;
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+}
+
+.logo {
+  float: left;
+  margin: 50px 50px 40px 0;
+}
+.main-heading {
+  font-size: 100px;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 0.95em;
+  color: var(--color);
+}
+span {
+  font-size: 60px;
+  margin: 0;
+  color: var(--color);
+}
+
+.txt {
+  color: #888888;
+  size: 20px;
+  line-height: 1em;
+  word-spacing: 0.5em;
+  letter-spacing: 0.1em;
+  margin-bottom: 50px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: white;
+  background-color: #70c3cb;
+  border-radius: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 0.6em 0.4em -0.5em #555;
+  transition: all 0.75s;
+  margin-bottom: 30px;
+}
+
+.socials {
+  margin-top: 50px;
+}
+
+.socials > .icon {
+  text-decoration: none;
+  font-size: 15px;
+  background-color: #70c3cb;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  float: left;
+  margin-right: 0.5em;
+  margin-bottom: 0, 5em;
+  text-align: center;
+  line-height: 2em;
+  transition: all 0.75s;
+  margin-right: 1.5em;
+}
+
+.right-column {
+  height: 700px;
+  width: 60%;
+}
